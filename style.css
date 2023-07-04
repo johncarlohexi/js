@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pic-container {
+    display: flex;
+    flex-direction: row;
+}
+.pic-container > div {
+    margin: 0.5rem 1rem;
+    cursor: pointer;
+}
