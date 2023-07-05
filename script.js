@@ -20,7 +20,7 @@ function checkWinner(user, pc) {
     if (user == pc) {
         getWinner.textContent = "Its a Tie!"
     }
-    else if (user = "paper" && pc == "rock") {
+    else if (user == "paper" && pc == "rock") {
         getWinner.textContent = "You Won!"
     } else if (user == "rock" && pc == "scissors") {
         getWinner.textContent = "You Won!"
